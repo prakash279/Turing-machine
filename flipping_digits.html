@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fliping the digits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <h1>1's Complement Turing Machine Simulation</h1>
+      <input type="text" id="inputString" placeholder="Enter binary digits">
+      <button onclick="create_tape()">Create tape</button>
+      <div class="tape-container">
+        <table id="tape" class="tape">
+          <!-- Rows for the tape content -->
+        </table>
+        <br>
+      </div>
+      <table id="cursor" class="tape" style="border: none;"></table>
+      <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

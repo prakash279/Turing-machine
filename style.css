@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.accepted {
+  color: green;
+}
+
+.rejected {
+  color: red;
+}
+/* Add this to your existing CSS styles */
+.active {
+background-color: lightgreen;
+transition: background-color 0.3s ease-in-out;
+}
+
+.tape-container {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.tape {
+border-collapse: collapse;
+}
+
+.tape td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: center;
+width: 30px;
+font-size: 20px;
+transition: background-color 0.3s ease-in-out;
+}
+/* Add this to your existing CSS styles */
+.active {
+background-color: lightgreen;
+transition: background-color 0.3s ease-in-out;
+}
+
+.tape-container {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.tape {
+border-collapse: collapse;
+margin-top: 10px;
+}
+
+.tape td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: center;
+width: 30px;
+font-size: 20px;
+transition: background-color 0.3s ease-in-out;
+}
+/* Add this CSS to style the icon and its container */
+.icon-container {
+  text-align: center; /* To center the icon horizontally */
+  margin-top: 10px; 
+}
+
+#stateIcon {
+  max-width: 100%; /* Adjust the icon size */
+  display: none; /* Hide the icon by default */
+}
+#cursor{
+  font-size: 15px;
+  border: none;
+  margin-top: 0px;
+}
+#cursor td {
+  border: none; /* Remove cell borders */
+}
+.up-arrow {
+  font-size: 24px; /* Adjust the font size as needed */
+  line-height: 0.5; /* Adjust the line height as needed */
+  transform: rotate(90deg);
+}

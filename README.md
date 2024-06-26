@@ -12,4 +12,5 @@ When we were taught TOC, for the group activity we were given the topic of 1's c
 
 ## This is the turing machine for the program or the problem we are adressing 
 ![image](https://github.com/prakash279/one-s-complement/assets/89769921/3f54730c-cc29-4ee0-bd5d-8e991e69ced4)
+<br>
 A very simple yet fun thing I created a year ago.
